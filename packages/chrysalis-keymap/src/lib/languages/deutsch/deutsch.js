@@ -41,15 +41,13 @@ const deutsch = [
     {
         code: 28,
         labels: {
-            primary: "Z",
-            top: "S+"
+            primary: "Z"
         }
     },
     {
         code: 47,
         labels: {
             primary: "Ü",
-            top: "S+"
         },
         newGroupName: "Letters"
     },
@@ -68,24 +66,21 @@ const deutsch = [
     {
         code: 51,
         labels: {
-            primary: "Ö",
-            top: "S+"
+            primary: "Ö"
         },
         newGroupName: "Letters"
     },
     {
         code: 52,
         labels: {
-            primary: "Ä",
-            top: "S+"
+            primary: "Ä"
         },
         newGroupName: "Letters"
     },
     {
         code: 29,
         labels: {
-            primary: "Y",
-            top: "S+"
+            primary: "Y"
         }
     },
     {
@@ -172,6 +167,44 @@ const deutsch = [
         code: 784,
         labels: {
             primary: "µ"
+        }
+    },
+    {
+        code: 2076,
+        labels: {
+            primary: "Z",
+            top: "S+"
+        }
+    },
+    {
+        code: 2095,
+        labels: {
+            primary: "Ü",
+            top: "S+"
+        },
+        newGroupName: "Letters"
+    },
+    {
+        code: 2099,
+        labels: {
+            primary: "Ö",
+            top: "S+"
+        },
+        newGroupName: "Letters"
+    },
+    {
+        code: 2100,
+        labels: {
+            primary: "Ä",
+            top: "S+"
+        },
+        newGroupName: "Letters"
+    },
+    {
+        code: 2077,
+        labels: {
+            primary: "Y",
+            top: "S+"
         }
     },
     {
