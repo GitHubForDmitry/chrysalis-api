@@ -55,6 +55,9 @@ import SpaceCadetTable from "./db/spacecadet"
 // Spanish - is an Array of objects of values that have to be modified
 import spanish from "./languages/spanish/spanish";
 
+// Spanish - is an Array of objects of values that have to be modified
+import french from "./languages/french/french";
+
 // newLanguageLayout - is a function that modify language layout
 import newLanguageLayout from "./languages/newLanguageLayout";
 
@@ -100,13 +103,14 @@ const defaultKeyCodeTable = defaultBaseKeyCodeTable
     .concat(DualUseModifierTables)
     .concat(DualUseLayerTables)
 
-// DataBase of languages 
+// DataBase of languages
 const languagesDB = {
     english: "english",
-    spanish
+    spanish,
+    french
   };
  // Create cache for language layout
-const map = new Map(); 
+const map = new Map();
 
 let baseKeyCodeTable, keyCodeTable;
 
@@ -180,10 +184,10 @@ class KeymapDB {
         this.language = settings.get("keyboard.language") || "english";
         //Checking language in the cache
         if(map.has(this.language)){
-           //Return language layout from the cache 
+           //Return language layout from the cache
             return map.get(this.language);
         } else {
-            //Creating language layout and add it into cache 
+            //Creating language layout and add it into cache
             const newBase = newLanguageLayout(
                 defaultBaseKeyCodeTable,
                 this.language,
