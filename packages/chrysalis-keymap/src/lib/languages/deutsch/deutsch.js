@@ -41,13 +41,15 @@ const deutsch = [
     {
         code: 28,
         labels: {
-            primary: "Z"
+            primary: "Z",
+            top: "S+"
         }
     },
     {
         code: 47,
         labels: {
-            primary: "Ü"
+            primary: "Ü",
+            top: "S+"
         },
         newGroupName: "Letters"
     },
@@ -66,21 +68,24 @@ const deutsch = [
     {
         code: 51,
         labels: {
-            primary: "Ö"
+            primary: "Ö",
+            top: "S+"
         },
         newGroupName: "Letters"
     },
     {
         code: 52,
         labels: {
-            primary: "Ä"
+            primary: "Ä",
+            top: "S+"
         },
         newGroupName: "Letters"
     },
     {
         code: 29,
         labels: {
-            primary: "Y"
+            primary: "Y",
+            top: "S+"
         }
     },
     {
@@ -90,81 +95,81 @@ const deutsch = [
         }
     },
     {
-        code: 1055,
+        code: 799,
         labels: {
             primary: "²"
         },
-        newGroupName: "DigitTable"
+        newGroupName: "Digits"
     },
     {
-        code: 1056,
+        code: 800,
         labels: {
             primary: "³"
         },
-        newGroupName: "DigitTable"
+        newGroupName: "Digits"
     },
     {
-        code: 1060,
+        code: 801,
         labels: {
             primary: "{"
         },
-        newGroupName: "DigitTable"
+        newGroupName: "Digits"
     },
     {
-        code: 1061,
+        code: 802,
         labels: {
             primary: "["
         },
-        newGroupName: "DigitTable"
+        newGroupName: "Digits"
     },
     {
-        code: 1062,
+        code: 803,
         labels: {
             primary: "]"
         },
-        newGroupName: "DigitTable"
+        newGroupName: "Digits"
     },
     {
-        code: 1063,
+        code: 804,
         labels: {
             primary: "}"
         },
-        newGroupName: "DigitTable"
+        newGroupName: "Digits"
     },
     {
-        code: 1069,
+        code: 813,
         labels: {
             primary: "\\"
         }
     },
     {
-        code: 1044,
+        code: 788,
         labels: {
             primary: "@"
         },
-        newGroupName: "DigitTable"
+        newGroupName: "Digits"
     },
     {
-        code: 1032,
+        code: 776,
         labels: {
             primary: "€"
         },
-        newGroupName: "DigitTable"
+        newGroupName: "Digits"
     },
     {
-        code: 1072,
+        code: 816,
         labels: {
             primary: "~"
         }
     },
     {
-        code: 1073,
+        code: 817,
         labels: {
             primary: "|"
         }
-    },//button on iso keyboard
+    },
     {
-        code: 1040,
+        code: 784,
         labels: {
             primary: "µ"
         }
@@ -258,7 +263,7 @@ const deutsch = [
         labels: {
             primary: "_"
         }
-    },
+    }
 ];
 
 export default deutsch;
