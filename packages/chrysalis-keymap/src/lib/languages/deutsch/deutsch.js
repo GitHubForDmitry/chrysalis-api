@@ -142,15 +142,13 @@ const altCtrlDeutsch = {
             code: 788,
             labels: {
                 primary: "@"
-            },
-            newGroupName: "Digits"
+            }
         },
         {
             code: 776,
             labels: {
                 primary: "€"
-            },
-            newGroupName: "Digits"
+            }
         },
         {
             code: 816,
