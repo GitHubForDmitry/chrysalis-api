@@ -20,7 +20,43 @@
 
 import { withModifiers } from "../../db/utils"
 
-const deutsch = [
+const deutschLetters = [
+    {
+        code: 28,
+        labels: {
+            primary: "Z"
+        }
+    },
+    {
+        code: 47,
+        labels: {
+            primary: "Ü",
+        },
+        newGroupName: "Letters"
+    },
+    {
+        code: 51,
+        labels: {
+            primary: "Ö"
+        },
+        newGroupName: "Letters"
+    },
+    {
+        code: 52,
+        labels: {
+            primary: "Ä"
+        },
+        newGroupName: "Letters"
+    },
+    {
+        code: 29,
+        labels: {
+            primary: "Y"
+        }
+    }
+];
+
+const deutschModifierKeys = [ 
     {
         code: 53,
         labels: {
@@ -41,19 +77,6 @@ const deutsch = [
         }
     },
     {
-        code: 28,
-        labels: {
-            primary: "Z"
-        }
-    },
-    {
-        code: 47,
-        labels: {
-            primary: "Ü",
-        },
-        newGroupName: "Letters"
-    },
-    {
         code: 48,
         labels: {
             primary: "+"
@@ -63,26 +86,6 @@ const deutsch = [
         code: 49,
         labels: {
             primary: "<"
-        }
-    },
-    {
-        code: 51,
-        labels: {
-            primary: "Ö"
-        },
-        newGroupName: "Letters"
-    },
-    {
-        code: 52,
-        labels: {
-            primary: "Ä"
-        },
-        newGroupName: "Letters"
-    },
-    {
-        code: 29,
-        labels: {
-            primary: "Y"
         }
     },
     {
@@ -269,12 +272,15 @@ const shiftModifierDeutsch = {
     ]
 }
 
+const deutsch = deutschLetters.concat(deutschModifierKeys);
+
 const table = {keys: deutsch};
+const tableWithoutModifier = {keys: deutschLetters};
 
 const deutschCtrlTable = withModifiers(table, "Control +", "C+", 256)
 const deutschLAltTable = withModifiers(table, "Alt +", "A+", 512)
 const deutschRAltTable = withModifiers(table, "AltGr +", "AGr+", 1024)
-const deutschShiftTable = withModifiers(table, "Shift +", "S+", 2048)
+const deutschShiftTable = withModifiers(tableWithoutModifier, "Shift +", "S+", 2048)
 const deutschGuiTable = withModifiers(table, "Gui +", "G+", 4096)
 // Double
 
