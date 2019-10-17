@@ -457,6 +457,7 @@ const deutschModifiedTables = [
     deutschAGSGTable,
     deutschCAAGrSTable,
     deutschCAAGrGTable,
+    withModifiers(table, "Hyper +", "Hyper+", 6912),
     deutschAAGrSGTable,
     deutschAllModTable
 ]
