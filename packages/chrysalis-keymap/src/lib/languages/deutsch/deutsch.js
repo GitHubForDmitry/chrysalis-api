@@ -172,44 +172,6 @@ const deutsch = [
         }
     },
     {
-        code: 2076,
-        labels: {
-            primary: "Z",
-            top: "S+"
-        }
-    },
-    {
-        code: 2095,
-        labels: {
-            primary: "Ü",
-            top: "S+"
-        },
-        newGroupName: "Letters"
-    },
-    {
-        code: 2099,
-        labels: {
-            primary: "Ö",
-            top: "S+"
-        },
-        newGroupName: "Letters"
-    },
-    {
-        code: 2100,
-        labels: {
-            primary: "Ä",
-            top: "S+"
-        },
-        newGroupName: "Letters"
-    },
-    {
-        code: 2077,
-        labels: {
-            primary: "Y",
-            top: "S+"
-        }
-    },
-    {
         code: 2101,
         labels: {
             primary: "°"
@@ -304,10 +266,16 @@ const table = {keys: deutsch};
 
 const deutschCtrlTable = withModifiers(table, "Control +", "C+", 256)
 const deutschLAltTable = withModifiers(table, "Alt +", "A+", 512)
+const deutschRAltTable = withModifiers(table, "AltGr +", "AGr+", 1024)
+const deutschShiftTable = withModifiers(table, "Shift +", "S+", 2048)
+const deutschGuiTable = withModifiers(table, "Gui +", "G+", 4096)
 
 const deutschModifiedTables = [
     deutschCtrlTable,
-    deutschLAltTable
+    deutschLAltTable,
+    deutschRAltTable,
+    deutschShiftTable,
+    deutschGuiTable
 ]
 
 export { deutsch as default, deutschModifiedTables }
