@@ -145,15 +145,13 @@ const altCtrlDeutsch = {
             code: 788,
             labels: {
                 primary: "@"
-            },
-            newGroupName: "Digits"
+            }
         },
         {
             code: 776,
             labels: {
                 primary: "€"
-            },
-            newGroupName: "Digits"
+            }
         },
         {
             code: 816,
@@ -463,6 +461,7 @@ const deutschModifiedTables = [
     deutschAGSGTable,
     deutschCAAGrSTable,
     deutschCAAGrGTable,
+    withModifiers(table, "Hyper +", "Hyper+", 6912),
     deutschAAGrSGTable,
     deutschAllModTable
 ]
