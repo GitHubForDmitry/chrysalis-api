@@ -18,6 +18,8 @@
  * Is an Array of objects of values that have to be modified.
  */
 
+import { withModifiers } from "../../db/utils"
+
 const deutsch = [
     {
         code: 53,
@@ -298,5 +300,15 @@ const deutsch = [
         }
     }
 ];
+const table = {keys: deutsch};
 
-export default deutsch;
+const deutschCtrlTable = withModifiers(table, "Control +", "C+", 256)
+const deutschLAltTable = withModifiers(table, "Alt +", "A+", 512)
+
+const deutschModifiedTables = [
+    deutschCtrlTable,
+    deutschLAltTable
+]
+
+export { deutsch as default, deutschModifiedTables }
+// export default deutsch;
