@@ -21,6 +21,40 @@ import { withModifiers } from "../../db/utils"
 
 const frenchLetters = [
     {
+        code: 20,
+        labels: {
+            primary: "A"
+        }
+    },
+    {
+        code: 26,
+        labels: {
+            primary: "Z"
+        }
+    },
+    {
+        code: 4,
+        labels: {
+            primary: "Q"
+        }
+    },
+    {
+        code: 51,
+        labels: {
+            primary: "M"
+        },
+        newGroupName: "Letters"
+    },
+    {
+        code: 29,
+        labels: {
+            primary: "W"
+        }
+    },
+];
+
+const frenchModifierKeys = [
+    {
         code: 31,
         labels: {
             primary: "é"
@@ -49,51 +83,11 @@ const frenchLetters = [
         newGroupName: "Letters"
     },
     {
-        code: 20,
-        labels: {
-            primary: "A"
-        }
-    },
-    {
-        code: 26,
-        labels: {
-            primary: "Z"
-        }
-    },
-    {
-        code: 4,
-        labels: {
-            primary: "Q"
-        }
-    },
-    {
-        code: 51,
-        labels: {
-            primary: "m"
-        },
-        newGroupName: "Letters"
-    },
-    {
         code: 52,
         labels: {
             primary: "ù"
         },
         newGroupName: "Letters"
-    },
-    {
-        code: 29,
-        labels: {
-            primary: "W"
-        }
-    },
-];
-
-const frenchModifierKeys = [
-    {
-        code: 47,
-        labels: {
-            primary: "²"
-        }
     },
     {
         code: 30,
@@ -265,12 +259,6 @@ const altCtrlFrench = {
             }
         },
         {
-            code: 776,
-            labels: {
-                primary: "€"
-            }
-        },
-        {
             code: 816,
             labels: {
                 primary: "¤"
@@ -373,7 +361,7 @@ const shiftModifierFrench = {
         {
             code: 2097,
             labels: {
-                primary: "µ"
+                primary: ">"
             }
         },
         {
@@ -578,7 +566,6 @@ const frenchAllModTable = withModifiers(
 )
 
 const frenchModifiedTables = [
-    altCtrlFrench,
     shiftModifierFrench,
     frenchCtrlTable,
     frenchLAltTable,
@@ -586,6 +573,7 @@ const frenchModifiedTables = [
     frenchShiftTable,
     frenchGuiTable,
     frenchCATable,
+    altCtrlFrench,
     frenchCAGrTable,
     frenchCSTable,
     frenchCGTable,
