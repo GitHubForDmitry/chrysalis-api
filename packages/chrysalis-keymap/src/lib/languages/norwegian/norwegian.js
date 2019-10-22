@@ -20,234 +20,242 @@
 
 import { withModifiers } from "../../db/utils"
 
-const norwegianLetters = [{
-    code: 48,
-    labels: {
-      primary: "Å"
+const norwegianLetters = [
+    {
+        code: 47,
+        labels: {
+            primary: "Å"
+        },
+        newGroupName: "Letters"
+    },
+    {
+        code: 51,
+        labels: {
+            primary: "Ø"
+        },
+        newGroupName: "Letters"
+    },
+    {
+        code: 52,
+        labels: {
+            primary: "Æ"
+        },
+        newGroupName: "Letters"
     }
-  },
-  {
-    code: 51,
-    labels: {
-      primary: "Ø"
-    },
-    newGroupName: "Letters"
-  },
-  {
-    code: 52,
-    labels: {
-      primary: "Æ"
-    },
-    newGroupName: "Letters"
-  }
 ];
 
 const norwegianModifierKeys = [
-  {
-    code: 53,
-    labels: {
-      primary: "|"
+    {
+        code: 53,
+        labels: {
+            primary: "|"
+        }
+    },
+    {
+        code: 45,
+        labels: {
+            primary: "+"
+        }
+    },
+    {
+        code: 46,
+        labels: {
+            primary: "\\"
+        }
+    },
+    {
+        code: 48,
+        labels: {
+            primary: "¨"
+        }
+    },
+    {
+        code: 49,
+        labels: {
+            primary: "'"
+        }
+    },
+    {
+        code: 56,
+        labels: {
+            primary: "-"
+        }
     }
-  },
-  {
-    code: 45,
-    labels: {
-      primary: "+"
-    }
-  },
-  {
-    code: 46,
-    labels: {
-      primary: "\\"
-    }
-  },
-  {
-    code: 49,
-    labels: {
-      primary: "¨"
-    }
-  },
-  {
-    code: 56,
-    labels: {
-      primary: "-"
-    }
-  }
 ];
 
 const altCtrlNorwegian = {
-  groupName: "AltCtrl Norwegian",
-  keys: [
-    {
-      code: 799,
-      labels: {
-        primary: "@"
-      }
-    },
-    {
-      code: 800,
-      labels: {
-        primary: "£"
-      }
-    },
-    {
-      code: 801,
-      labels: {
-        primary: "$"
-      }
-    },
-    {
-      code: 802,
-      labels: {
-        primary: "€"
-      }
-    },
-    {
-      code: 804,
-      labels: {
-        primary: "{"
-      }
-    },
-    {
-      code: 805,
-      labels: {
-        primary: "["
-      }
-    },
-    {
-      code: 806,
-      labels: {
-        primary: "]"
-      }
-    },
-    {
-      code: 807,
-      labels: {
-        primary: "}"
-      }
-    },
-    {
-      code: 814,
-      labels: {
-        primary: "´"
-      }
-    },
-    {
-      code: 776,
-      labels: {
-        primary: "€"
-      }
-    },
-    {
-      code: 816,
-      labels: {
-        primary: "~"
-      }
-    },
-    {
-      code: 784,
-      labels: {
-        primary: "µ"
-      }
-    },
-  ]
+    groupName: "AltCtrl Norwegian",
+    keys: [
+        {
+            code: 799,
+            labels: {
+                primary: "@"
+            }
+        },
+        {
+            code: 800,
+            labels: {
+                primary: "£"
+            }
+        },
+        {
+            code: 801,
+            labels: {
+                primary: "$"
+            }
+        },
+        {
+            code: 802,
+            labels: {
+                primary: "€"
+            }
+        },
+        {
+            code: 804,
+            labels: {
+                primary: "{"
+            }
+        },
+        {
+            code: 805,
+            labels: {
+                primary: "["
+            }
+        },
+        {
+            code: 806,
+            labels: {
+                primary: "]"
+            }
+        },
+        {
+            code: 807,
+            labels: {
+                primary: "}"
+            }
+        },
+        {
+            code: 814,
+            labels: {
+                primary: "´"
+            }
+        },
+        {
+            code: 776,
+            labels: {
+                primary: "€"
+            }
+        },
+        {
+            code: 816,
+            labels: {
+                primary: "~"
+            }
+        },
+        {
+            code: 784,
+            labels: {
+                primary: "µ"
+            }
+        },
+    ]
 };
 
 const shiftModifierNorwegian = {
-  groupName: "Shifted Norwegian",
-  keys: [
-    {
-      code: 2101,
-      labels: {
-        primary: "§"
-      }
-    },
-    {
-      code: 2079,
-      labels: {
-        primary: "\""
-      }
-    },
-    {
-      code: 2081,
-      labels: {
-        primary: "¤"
-      }
-    },
-    {
-      code: 2083,
-      labels: {
-        primary: "&"
-      }
-    },
-    {
-      code: 2084,
-      labels: {
-        primary: "/"
-      }
-    },
-    {
-      code: 2085,
-      labels: {
-        primary: "("
-      }
-    },
-    {
-      code: 2086,
-      labels: {
-        primary: ")"
-      }
-    },
-    {
-      code: 2087,
-      labels: {
-        primary: "="
-      }
-    },
-    {
-      code: 2093,
-      labels: {
-        primary: "?"
-      }
-    },
-    {
-      code: 2094,
-      labels: {
-        primary: "`"
-      }
-    },
+    groupName: "Shifted Norwegian",
+    keys: [
+        {
+            code: 2101,
+            labels: {
+                primary: "§"
+            }
+        },
+        {
+            code: 2079,
+            labels: {
+                primary: "\""
+            }
+        },
+        {
+            code: 2081,
+            labels: {
+                primary: "¤"
+            }
+        },
+        {
+            code: 2083,
+            labels: {
+                primary: "&"
+            }
+        },
+        {
+            code: 2084,
+            labels: {
+              primary: "/"
+            }
+        },
+        {
+            code: 2085,
+            labels: {
+                primary: "("
+            }
+        },
+        {
+            code: 2086,
+            labels: {
+                primary: ")"
+            }
+        },
+        {
+            code: 2087,
+            labels: {
+                  primary: "="
+            }
+        },
+        {
+            code: 2093,
+            labels: {
+                primary: "?"
+            }
+        },
+        {
+            code: 2094,
+            labels: {
+                primary: "`"
+            }
+        },
 
-    {
-      code: 2096,
-      labels: {
-        primary: "^"
-      }
-    },
-    {
-      code: 2097,
-      labels: {
-        primary: "'"
-      }
-    },
-    {
-      code: 2102,
-      labels: {
-        primary: ";"
-      }
-    },
-    {
-      code: 2103,
-      labels: {
-        primary: ":"
-      }
-    },
-    {
-      code: 2104,
-      labels: {
-        primary: "_"
-      }
-    }
-  ]
+        {
+            code: 2096,
+            labels: {
+                primary: "^"
+            }
+        },
+        {
+            code: 2097,
+            labels: {
+                primary: "*"
+            }
+        },
+        {
+            code: 2102,
+            labels: {
+                primary: ";"
+            }
+        },
+        {
+            code: 2103,
+            labels: {
+                primary: ":"
+            }
+        },
+        {
+            code: 2104,
+            labels: {
+                primary: "_"
+            }
+        }
+      ]
 };
 
 const norwegian = norwegianLetters.concat(norwegianModifierKeys);

@@ -61,6 +61,9 @@ import deutsch, {deutschModifiedTables} from "./languages/deutsch/deutsch";
 // French - is an Array of objects of values that have to be modified
 import french, {frenchModifiedTables} from "./languages/french/french";
 
+// French - is an Array of objects of values that have to be modified
+import norwegian, {norwegianModifiedTables} from "./languages/norwegian/norwegian";
+
 // newLanguageLayout - is a function that modify language layout
 import newLanguageLayout from "./languages/newLanguageLayout";
 
@@ -96,7 +99,8 @@ const defaultBaseKeyCodeTable = [
 
 const supportModifiedTables = {
     deutsch: deutschModifiedTables,
-    french: frenchModifiedTables
+    french: frenchModifiedTables,
+    norwegian: norwegianModifiedTables
 }
 
 const defaultKeyCodeTable = defaultBaseKeyCodeTable
@@ -117,7 +121,8 @@ const languagesDB = {
     english: "english",
     spanish,
     deutsch,
-    french
+    french,
+    norwegian
   };
  // Create cache for language layout
 const map = new Map();
