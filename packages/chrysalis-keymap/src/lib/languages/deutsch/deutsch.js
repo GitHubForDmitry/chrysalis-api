@@ -56,7 +56,7 @@ const deutschLetters = [
     }
 ];
 
-const deutschModifierKeys = [ 
+const deutschModifierKeys = [
     {
         code: 53,
         labels: {
@@ -112,25 +112,25 @@ const altCtrlDeutsch = {
             }
         },
         {
-            code: 801,
+            code: 804,
             labels: {
                 primary: "{"
             }
         },
         {
-            code: 802,
+            code: 805,
             labels: {
                 primary: "["
             }
         },
         {
-            code: 803,
+            code: 806,
             labels: {
                 primary: "]"
             }
         },
         {
-            code: 804,
+            code: 807,
             labels: {
                 primary: "}"
             }
@@ -433,7 +433,6 @@ const deutschAllModTable = withModifiers(
 )
 
 const deutschModifiedTables = [
-    altCtrlDeutsch,
     shiftModifierDeutsch,
     deutschCtrlTable,
     deutschLAltTable,
@@ -441,6 +440,7 @@ const deutschModifiedTables = [
     deutschShiftTable,
     deutschGuiTable,
     deutschCATable,
+    altCtrlDeutsch,
     deutschCAGrTable,
     deutschCSTable,
     deutschCGTable,

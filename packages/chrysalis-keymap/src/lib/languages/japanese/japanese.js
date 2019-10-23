@@ -21,7 +21,7 @@ import { withModifiers } from "../../db/utils"
 
 const japaneseLetters = [
     {
-        code: 47,
+        code: 53,
         labels: {
             primary: "ろ"
         }
@@ -647,7 +647,7 @@ const shiftModifierJapanese = {
             }
         },
         {
-            code: 2104,
+            code: 2093,
             labels: {
                 primary: "ー"
             }
@@ -668,6 +668,12 @@ const shiftModifierJapanese = {
             code: 2096,
             labels: {
                 primary: "」"
+            }
+        },
+        {
+            code: 2077,
+            labels: {
+                primary: "っ"
             }
         },
         {
@@ -854,13 +860,13 @@ const japaneseAllModTable = withModifiers(
 )
 
 const japaneseModifiedTables = [
-    shiftModifierJapanese,
     japaneseCtrlTable,
     japaneseLAltTable,
     japaneseRAltTable,
     japaneseShiftTable,
     japaneseGuiTable,
     japaneseCATable,
+    shiftModifierJapanese,
     altCtrlJapanese,
     japaneseCAGrTable,
     japaneseCSTable,
