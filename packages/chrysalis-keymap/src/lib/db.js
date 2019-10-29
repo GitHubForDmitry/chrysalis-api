@@ -1,5 +1,5 @@
 /* chrysalis-keymap -- Chrysalis keymap library
- * Copyright (C) 2018, 2019  Keyboardio, Inc.
+ * Copyright (C) 2019  DygmaLab SE
  *
  * This program is free software: you can redistribute it and/or modify it under
  * the terms of the GNU General Public License as published by the Free Software
@@ -64,7 +64,7 @@ import french, {frenchModifiedTables} from "./languages/french/french";
 // Norwegian - is an Array of objects of values that have to be modified
 import norwegian, {norwegianModifiedTables} from "./languages/norwegian/norwegian";
 
-// French - is an Array of objects of values that have to be modified
+// Japanese - is an Array of objects of values that have to be modified
 import japanese, {japaneseModifiedTables} from "./languages/japanese/japanese";
 
 // newLanguageLayout - is a function that modify language layout
