@@ -1,0 +1,46 @@
+{
+  "name": "@bazecor-api/hardware",
+  "version": "0.0.1",
+  "description": "Collection of Bazecor hardware support libraries",
+  "main": "lib",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/keyboardio/bazecor-api"
+  },
+  "author": {
+    "name": "Gergely Nagy",
+    "email": "<algernon@keyboard.io>",
+    "url": "https://asylum.madhouse-project.org"
+  },
+  "license": "GPL-3.0-only",
+  "homepage": "https://github.com/keyboardio/bazecor-api#readme",
+  "bugs": {
+    "url": "https://github.com/keyboardio/bazecor-api/issues"
+  },
+  "keywords": [
+    "bazecor",
+    "Dygmalab"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "build": "babel src/lib -d lib",
+    "lint": "eslint src/lib",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "@bazecor-api/hardware-dygma-raise-ansi": "^0.0.6",
+    "@bazecor-api/hardware-dygma-raise-iso": "^0.0.6",
+    "@bazecor-api/hardware-ez-ergodox": "^0.0.13",
+    "@bazecor-api/hardware-kbdfans-kbd4x": "^0.0.3",
+    "@bazecor-api/hardware-keyboardio-model01": "^0.0.21",
+    "@bazecor-api/hardware-olkb-planck": "^0.0.3",
+    "@bazecor-api/hardware-pjrc-teensy": "^0.0.5",
+    "@bazecor-api/hardware-softhruf-splitography": "^0.0.4",
+    "@bazecor-api/hardware-technomancy-atreus": "^0.0.14"
+  },
+  "peerDependencies": {
+    "@bazecor-api/focus": "~0.0.2"
+  }
+}

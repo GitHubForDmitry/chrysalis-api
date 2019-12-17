@@ -1,16 +1,16 @@
 {
-  "name": "chrysalis-api",
+  "name": "bazecor-api",
   "private": true,
   "version": "0.0.0",
   "license": "GPL-3.0-only",
   "repository": {
     "type": "git",
-    "url": "git://github.com/keyboardio/chrysalis-api.git"
+    "url": "git://github.com/Dygmalab/Bazecor.git"
   },
   "devDependencies": {
+    "@babel/cli": "^7.1.0",
     "@babel/core": "7.1.0",
     "@babel/preset-env": "7.1.0",
-    "@babel/cli": "^7.1.0",
     "eslint": "^4.19.1",
     "lerna": "^3.6.0"
   },
