@@ -5,7 +5,7 @@
   "license": "GPL-3.0-only",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Dygmalab/Bazecor.git"
+    "url": "git://github.com/Dygmalab/bazecor-api"
   },
   "devDependencies": {
     "@babel/cli": "^7.1.0",

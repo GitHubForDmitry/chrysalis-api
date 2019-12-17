@@ -5,7 +5,7 @@
   "main": "lib",
   "repository": {
     "type": "git",
-    "url": "git://github.com/keyboardio/bazecor-api"
+    "url": "git://github.com/dygmalab/bazecor-api"
   },
   "author": {
     "name": "Gergely Nagy",
@@ -13,9 +13,9 @@
     "url": "https://asylum.madhouse-project.org"
   },
   "license": "GPL-3.0-only",
-  "homepage": "https://github.com/keyboardio/bazecor-api#readme",
+  "homepage": "git://github.com/dygmalab/bazecor-api#readme",
   "bugs": {
-    "url": "https://github.com/keyboardio/bazecor-api/issues"
+    "url": "https://github.com/Dygmalab/Bazecor/issues"
   },
   "keywords": [
     "bazecor",

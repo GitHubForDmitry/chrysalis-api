@@ -19,4 +19,4 @@ Packages in the repository include:
  - `@bazecor-api/keymap`
  - `@bazecor-api/colormap`
 
-[Source code](https://github.com/keyboardio/bazecor-api)
+[Source code](git://github.com/Dygmalab/bazecor-api)
