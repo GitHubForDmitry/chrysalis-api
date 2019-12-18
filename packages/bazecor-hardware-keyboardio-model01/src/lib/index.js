@@ -1,4 +1,4 @@
-/* bazecor-bundle-Dygmalab -- Bazecor Bundle for Dygmalab SE Model01 support
+/* bazecor-hardware-keyboardio-model01 -- Bazecor Dygmalab SE Model01 support
  * Copyright (C) 2019  DygmaLab SE
  *
  * This program is free software: you can redistribute it and/or modify it under

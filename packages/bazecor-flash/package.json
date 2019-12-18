@@ -15,7 +15,7 @@
   "license": "GPL-3.0-only",
   "homepage": "git://github.com/Dygmalab/bazecor-api#readme",
   "bugs": {
-    "url": "git://github.com/Dygmalab/bazecor-api//issues"
+    "url": "git://github.com/Dygmalab/bazecor-api/issues"
   },
   "keywords": [
     "bazecor",

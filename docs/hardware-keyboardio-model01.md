@@ -1,4 +1,4 @@
-@bazecor-api/hardware-dygma
+@bazecor-api/hardware-keyboardio-model01
 ==========================================
 
 [DygmaLab SE][dygma] hardware descriptor.
