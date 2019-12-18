@@ -5,7 +5,7 @@
   "main": "bin",
   "repository": {
     "type": "git",
-    "url": "git://github.com/dygmalab/bazecor-api.git"
+    "url": "git://github.com/Dygmalab/bazecor-api.git"
   },
   "author": {
     "name": "Gergely Nagy",
@@ -31,8 +31,8 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@bazecor-api/focus": "^0.0.9",
-    "@bazecor-api/hardware-keyboardio-model01": "^0.0.19",
+    "@bazecor-api/focus": "^0.0.1",
+    "@bazecor-api/hardware-keyboardio-model01": "^0.0.1",
     "color-convert": "^2.0.0"
   }
 }

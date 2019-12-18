@@ -1,5 +1,5 @@
 // -*- mode: js-jsx -*-
-/* bazecor-bundle-keyboardio -- Bazecor Bundle for Keyboard.io
+/* bazecor-bundle-Dygmalab -- Bazecor Bundle for Dygmalab SE
  * Copyright (C) 2019  DygmaLab SE
  * Copyright (C) 2017, 2018  Simon-Claudius Wystrach
  *
