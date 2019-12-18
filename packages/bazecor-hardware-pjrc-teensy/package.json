@@ -5,17 +5,17 @@
   "main": "lib",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Dygmalab/bazecor-api"
+    "url": "git://github.com/Dygmalab/bazecor-api.git"
   },
   "author": {
-    "name": "Gergely Nagy",
-    "email": "<algernon@keyboard.io>",
-    "url": "https://asylum.madhouse-project.org"
+    "name": "DygmaLab SE",
+    "email": "contact@dygma.com",
+    "url": "https://dygma.com"
   },
   "license": "GPL-3.0-only",
-  "homepage": "https://github.com/Dygmalab/Bazecor#readme",
+  "homepage": "https://github.com/Dygmalab/bazecor-api#readme",
   "bugs": {
-    "url": "https://github.com/Dygmalab/Bazecor/issues"
+    "url": "https://github.com/Dygmalab/bazecor-api/issues"
   },
   "keywords": [
     "bazecor",
@@ -33,6 +33,6 @@
     "@bazecor-api/flash": "^0.0.1"
   },
   "peerDependencies": {
-    "@bazecor-api/focus": "~0.0.1"
+    "@bazecor-api/focus": "~0.0.2"
   }
 }

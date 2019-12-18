@@ -8,9 +8,9 @@
     "url": "git://github.com/Dygmalab/bazecor-api.git"
   },
   "author": {
-    "name": "Gergely Nagy",
-    "email": "<algernon@keyboard.io>",
-    "url": "https://asylum.madhouse-project.org"
+      "name": "DygmaLab SE",
+      "email": "contact@dygma.com",
+      "url": "https://dygma.com"
   },
   "license": "GPL-3.0-only",
   "homepage": "https://github.com/Dygmalab/Bazecor#readme",
@@ -31,8 +31,8 @@
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@bazecor-api/focus": "^0.0.1",
-    "@bazecor-api/hardware-keyboardio-model01": "^0.0.1",
+    "@bazecor-api/focus": "^0.0.9",
+    "@bazecor-api/hardware-keyboardio-model01": "^0.0.19",
     "color-convert": "^2.0.0"
   }
 }

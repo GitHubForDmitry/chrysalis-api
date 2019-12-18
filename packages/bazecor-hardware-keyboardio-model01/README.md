@@ -1,6 +1,6 @@
 bazecor-hardware-keyboardio-model01
 =====================================
 
-[DygmaLab SE][dygma] hardware descriptor for Bazecor.
+[Keyboardio Model01][kbdio:m01] hardware descriptor for Bazecor.
 
- [dygma]: https://shop.keyboard.io/
+ [kbdio:m01]: https://shop.keyboard.io/

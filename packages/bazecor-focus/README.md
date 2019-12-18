@@ -3,7 +3,7 @@
 
 This is the heart of the Bazecor libraries, the one thing that binds
 everything together. It implements the `Focus` protocol used by
-[Dygmalab][k:focus] for bi-directional communication, and on top of that, it
+[Kaleidoscope][k:focus] for bi-directional communication, and on top of that, it
 provides hooks and methods to build complex applications on top.
 
  [k:focus]: https://github.com/Dygmalab/Bazecor-Focus
