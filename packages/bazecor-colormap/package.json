@@ -1,0 +1,35 @@
+{
+    "name": "@bazecor-api/colormap",
+    "version": "0.0.1",
+    "description": "Bazecor colormap library",
+    "main": "lib",
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/Dygmalab/bazecor-api.git"
+    },
+    "author": {
+        "name": "Gergely Nagy",
+        "email": "<algernon@keyboard.io>",
+        "url": "https://asylum.madhouse-project.org"
+    },
+    "license": "GPL-3.0-only",
+    "homepage": "git://github.com/Dygmalab/bazecor-api#readme",
+    "bugs": {
+        "url": "git://github.com/Dygmalab/bazecor-api/issues"
+    },
+    "keywords": [
+        "bazecor",
+        "Dygmalab"
+    ],
+    "publishConfig": {
+        "access": "public"
+    },
+    "scripts": {
+        "build": "babel src/lib -d lib",
+        "lint": "eslint src/lib",
+        "prepublishOnly": "npm run build"
+    },
+    "dependencies": {
+        "@bazecor-api/focus": "^0.0.1"
+    }
+}

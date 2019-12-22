@@ -1,11 +1,11 @@
 {
-  "name": "@bazecor-examples/model01-load",
-  "version": "0.0.0",
-  "description": "A bazecor-api example",
-  "main": "bin",
+  "name": "@bazecor-api/hardware-pjrc-teensy",
+  "version": "0.0.1",
+  "description": "Bazecor hardware library for generic PJRC Teensy devices",
+  "main": "lib",
   "repository": {
     "type": "git",
-    "url": "git://github.com/Dygmalab/bazecor-api.git"
+    "url": "git://github.com/Dygmalab/bazecor-api"
   },
   "author": {
     "name": "Gergely Nagy",
@@ -25,14 +25,14 @@
     "access": "public"
   },
   "scripts": {
-    "build": "babel src -d bin",
-    "lint": "eslint src",
-    "demo": "node bin/model01-load.js simulate",
+    "build": "babel src/lib -d lib",
+    "lint": "eslint src/lib",
     "prepublishOnly": "npm run build"
   },
   "dependencies": {
-    "@bazecor-api/focus": "^0.0.1",
-    "@bazecor-api/hardware-keyboardio-model01": "^0.0.1",
-    "color-convert": "^2.0.0"
+    "@bazecor-api/flash": "^0.0.1"
+  },
+  "peerDependencies": {
+    "@bazecor-api/focus": "~0.0.1"
   }
 }
