@@ -1,13 +1,13 @@
 @bazecor-api/hardware-keyboardio-model01
 ==========================================
 
-[DygmaLab SE][dygma] hardware descriptor.
+[Keyboardio Model01][m01] hardware descriptor.
 
- [dygma]: https://shop.keyboard.io/
+ [m01]: https://shop.keyboard.io/
 
 Can be used with `Focus.find()`, `Focus.open()`, and so on.
 
-[![@bazecor-api/hardware-keyboardio-model01](https://img.shields.io/npm/v/@chrysalis-api/hardware-keyboardio-model01.svg?style=for-the-badge&label=@chrysalis-api/hardware-keyboardio-model01&logo=npm)](https://www.npmjs.com/package/@chrysalis-api/hardware-keyboardio-model01)
+[![@chrysalis-api/hardware-keyboardio-model01](https://img.shields.io/npm/v/@chrysalis-api/hardware-keyboardio-model01.svg?style=for-the-badge&label=@chrysalis-api/hardware-keyboardio-model01&logo=npm)](https://www.npmjs.com/package/@chrysalis-api/hardware-keyboardio-model01)
 
 ```
 yarn add @bazecor-api/hardware-keyboardio-model01

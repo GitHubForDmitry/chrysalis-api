@@ -3,13 +3,12 @@
 
 This is the heart of the Bazecor libraries, the one thing that binds
 everything together. It implements the `Focus` protocol used by
-[Dygmalab][k:focus] for bi-directional communication, and on top of that, it
+[Kaleidoscope][k:focus] for bi-directional communication, and on top of that, it
 provides hooks and methods to build complex applications on top.
 
- [k:focus]: https://github.com/Dygmalab/Bazecor-Focus
+ [k:focus]: https://github.com/keyboardio/Kaleidoscope/blob/master/doc/plugin/FocusSerial.md
 
-[![@bazecor-api/focus](https://img.shields.io/npm/v/@chrysalis-api/focus.svg?style=for-the-badge&label=@chrysalis-api/focus&logo=npm)](https://www.npmjs.com/package/@chrysalis-api/focus)
-
+[![@chrysalis-api/focus](https://img.shields.io/npm/v/@chrysalis-api/focus.svg?style=for-the-badge&label=@chrysalis-api/focus&logo=npm)](https://www.npmjs.com/package/@chrysalis-api/focus)
 ```
 yarn add @bazecor-api/focus
 ```
